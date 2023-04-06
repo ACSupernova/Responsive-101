@@ -1,26 +1,29 @@
-.quadrados {
+body {
+    background-color: wheat;
+}
+
+.beat {
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkblue;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.hamon {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
     justify-content: space-evenly;
-    border: 10px solid black;
 }
 
-.box {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    float: left;
-    box-sizing: border-box;
-}
-
-.box:nth-of-type(even) {
-    background-color: greenyellow;
-    border: 10px solid green;
-}
-
-.box:nth-of-type(odd) {
-    background-color: darkblue;
-    border: 10px solid gold;
+.stand {
+    width: 150px;
+    border-radius: 8px;
+    margin: 15px;
 }
